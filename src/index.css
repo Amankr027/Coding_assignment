@@ -133,3 +133,30 @@ a:hover {
 .welcome-screen button:hover {
   background-color: #c1351d;
 }
+
+
+/* Style for the clickable login/register text */
+.clickable {
+  color: #fff;
+  cursor: pointer;
+  background-color: #00c853;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Hover effect */
+.clickable:hover {
+  background-color: #039a36;
+  transform: scale(0.90);
+}
+
+/* Focus effect */
+.clickable:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 150, 50, 0.4);
+}
